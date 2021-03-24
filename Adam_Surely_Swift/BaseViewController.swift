@@ -1,6 +1,6 @@
 //
 //  BaseViewController.swift
-//  Adam_20210324_Swift
+//  Adam_Surely_Swift
 //
 //  Created by Adam on 2021/3/24.
 //
@@ -11,9 +11,14 @@ import UIKit
 class BaseViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        print("\(self) viewDidLoad")
         configEvent()
         configUI()
+    }
+    
+    deinit {
+        
+        print("\(self) deinit")
     }
     func configEvent() {
         

@@ -1,14 +1,14 @@
 //
-//  Adam_20210324_SwiftTests.swift
-//  Adam_20210324_SwiftTests
+//  Adam_Surely_SwiftTests.swift
+//  Adam_Surely_SwiftTests
 //
 //  Created by Adam on 2021/3/24.
 //
 
 import XCTest
-@testable import Adam_20210324_Swift
+@testable import Adam_Surely_Swift
 
-class Adam_20210324_SwiftTests: XCTestCase {
+class Adam_Surely_SwiftTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
