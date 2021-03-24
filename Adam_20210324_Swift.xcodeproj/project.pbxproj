@@ -9,12 +9,16 @@
 /* Begin PBXBuildFile section */
 		667089D6260AC18200A5B5F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667089D5260AC18200A5B5F6 /* AppDelegate.swift */; };
 		667089D8260AC18200A5B5F6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667089D7260AC18200A5B5F6 /* SceneDelegate.swift */; };
-		667089DA260AC18200A5B5F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667089D9260AC18200A5B5F6 /* ViewController.swift */; };
+		667089DA260AC18200A5B5F6 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667089D9260AC18200A5B5F6 /* HomeViewController.swift */; };
 		667089DD260AC18200A5B5F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 667089DB260AC18200A5B5F6 /* Main.storyboard */; };
 		667089DF260AC18500A5B5F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 667089DE260AC18500A5B5F6 /* Assets.xcassets */; };
 		667089E2260AC18500A5B5F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 667089E0260AC18500A5B5F6 /* LaunchScreen.storyboard */; };
 		667089ED260AC18500A5B5F6 /* Adam_20210324_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667089EC260AC18500A5B5F6 /* Adam_20210324_SwiftTests.swift */; };
 		667089F8260AC18500A5B5F6 /* Adam_20210324_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667089F7260AC18500A5B5F6 /* Adam_20210324_SwiftUITests.swift */; };
+		66708A09260ACAFB00A5B5F6 /* SemaphoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66708A08260ACAFB00A5B5F6 /* SemaphoreViewController.swift */; };
+		66A18296260B162700057C77 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A18295260B162700057C77 /* BaseViewController.swift */; };
+		66A1829B260B169000057C77 /* DispatchGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A1829A260B169000057C77 /* DispatchGroupViewController.swift */; };
+		66A182A0260B16F000057C77 /* WKWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A1829F260B16F000057C77 /* WKWebViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +42,7 @@
 		667089D2260AC18200A5B5F6 /* Adam_20210324_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Adam_20210324_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		667089D5260AC18200A5B5F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		667089D7260AC18200A5B5F6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		667089D9260AC18200A5B5F6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		667089D9260AC18200A5B5F6 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		667089DC260AC18200A5B5F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		667089DE260AC18500A5B5F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		667089E1260AC18500A5B5F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +53,10 @@
 		667089F3260AC18500A5B5F6 /* Adam_20210324_SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Adam_20210324_SwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		667089F7260AC18500A5B5F6 /* Adam_20210324_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adam_20210324_SwiftUITests.swift; sourceTree = "<group>"; };
 		667089F9260AC18500A5B5F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66708A08260ACAFB00A5B5F6 /* SemaphoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SemaphoreViewController.swift; sourceTree = "<group>"; };
+		66A18295260B162700057C77 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		66A1829A260B169000057C77 /* DispatchGroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchGroupViewController.swift; sourceTree = "<group>"; };
+		66A1829F260B16F000057C77 /* WKWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WKWebViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +109,11 @@
 			children = (
 				667089D5260AC18200A5B5F6 /* AppDelegate.swift */,
 				667089D7260AC18200A5B5F6 /* SceneDelegate.swift */,
-				667089D9260AC18200A5B5F6 /* ViewController.swift */,
+				66A18295260B162700057C77 /* BaseViewController.swift */,
+				667089D9260AC18200A5B5F6 /* HomeViewController.swift */,
+				66708A08260ACAFB00A5B5F6 /* SemaphoreViewController.swift */,
+				66A1829A260B169000057C77 /* DispatchGroupViewController.swift */,
+				66A1829F260B16F000057C77 /* WKWebViewController.swift */,
 				667089DB260AC18200A5B5F6 /* Main.storyboard */,
 				667089DE260AC18500A5B5F6 /* Assets.xcassets */,
 				667089E0260AC18500A5B5F6 /* LaunchScreen.storyboard */,
@@ -258,8 +270,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				667089DA260AC18200A5B5F6 /* ViewController.swift in Sources */,
+				66A18296260B162700057C77 /* BaseViewController.swift in Sources */,
+				66708A09260ACAFB00A5B5F6 /* SemaphoreViewController.swift in Sources */,
+				66A182A0260B16F000057C77 /* WKWebViewController.swift in Sources */,
+				667089DA260AC18200A5B5F6 /* HomeViewController.swift in Sources */,
 				667089D6260AC18200A5B5F6 /* AppDelegate.swift in Sources */,
+				66A1829B260B169000057C77 /* DispatchGroupViewController.swift in Sources */,
 				667089D8260AC18200A5B5F6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
